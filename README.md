@@ -9,8 +9,16 @@ zhan.gu@nus.edu.sg
 
 # BTO Recommender System
 
-### Credit:
+<img src="clips/static/hdb-bto.png"
+     style="float: left; margin-right: 0px;" />
 
+### Credits - Project members from Institute of Systems Sciences, National University of Singapore:
+* Desmond Chua
+* Chang Ye Han
+* Chee Jia Wei
+* Ganesh Kumar
+* Goh Yu Chen
+* Jeanette Lim
 
 ### Install necessary libraries. This application works in python 2 only.
 
@@ -22,14 +30,18 @@ pip install pyclips flask flask-socketio eventlet simplejson pandas
 
 http://bit.ly/iss-vm
 
-source activate iss-env-py2
+open terminal in iss-vm
 
-cd bto-recommender-system/clips
+$ git clone https://github.com/telescopeuser/bto-recommender-system.git
 
-python app.py
+$ source activate iss-env-py2
+
+(iss-env-py2) $ cd bto-recommender-system/clips
+
+(iss-env-py2) $ python app.py
 
 ### Go to this URL using web browser
-http://127.0.0.1:5000 or http://0.0.0.0:5000
+http://0.0.0.0:5000 or http://127.0.0.1:5000
 
 ---
 
