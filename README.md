@@ -7,12 +7,13 @@ zhan.gu@nus.edu.sg
 
 ---
 
-# BTO Recommender System
+# Singapore Housing & Deveoplment Board - BTO Recommender System
 
 <img src="clips/static/hdb-bto.png"
      style="float: left; margin-right: 0px;" />
 
-### Credits - Project members from Institute of Systems Sciences, National University of Singapore:
+### Credits
+### Project members of Institute of Systems Science, National University of Singapore:
 * Desmond Chua
 * Chang Ye Han
 * Chee Jia Wei
@@ -20,15 +21,11 @@ zhan.gu@nus.edu.sg
 * Goh Yu Chen
 * Jeanette Lim
 
-### Install necessary libraries. This application works in python 2 only.
+### [ 1 ] To run the program using iss-vm
 
-sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
+download pre-built virtual machine from http://bit.ly/iss-vm
 
-pip install pyclips flask flask-socketio eventlet simplejson pandas
-
-### To run the program using iss-vm
-
-http://bit.ly/iss-vm
+start iss-vm
 
 open terminal in iss-vm
 
@@ -42,6 +39,13 @@ $ source activate iss-env-py2
 
 ### Go to this URL using web browser
 http://0.0.0.0:5000 or http://127.0.0.1:5000
+
+### [ 2 ] To run the program in other/local machine:
+### Install additional necessary libraries. This application works in python 2 only.
+
+$ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
+
+$ pip install pyclips flask flask-socketio eventlet simplejson pandas
 
 ---
 
