@@ -1,4 +1,4 @@
-### 顾 瞻 GU Zhan (Sam)
+﻿### 顾 瞻 GU Zhan (Sam)
 
 zhan.gu@nus.edu.sg
 
@@ -20,6 +20,22 @@ zhan.gu@nus.edu.sg
 * Ganesh Kumar
 * Goh Yu Chen
 * Jeanette Lim
+
+
+### HDB_BTO_REPORT.pdf contains:
+* Main <10 page report
+* Annex A - 3 scenarios of our system
+* Annex B - User manual
+* Annex C - Interview audio, video, transcript, additional questions
+
+### HDB_BTO_SURVEY.xlsx contains:
+* Results of survey
+* Insights derived, which were subsequently used in our system
+
+### Folder clips contains:
+* Program in softcopy
+
+---
 
 ### [ 1 ] To run the program using iss-vm
 
